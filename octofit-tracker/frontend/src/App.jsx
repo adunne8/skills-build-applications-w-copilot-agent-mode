@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, NavLink, Navigate, Route, Routes } from 'react-router-dom'
-import './App.css'
 import Users from './components/Users.jsx'
 import Teams from './components/Teams.jsx'
 import Activities from './components/Activities.jsx'
