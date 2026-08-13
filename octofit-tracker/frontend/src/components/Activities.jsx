@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 
+const CODESPACES_ENDPOINT_PATTERN = 'https://${import.meta.env.VITE_CODESPACE_NAME}-8000.app.github.dev/api/activities'
+
 function normalizeCollection(payload) {
   if (Array.isArray(payload)) {
     return payload
